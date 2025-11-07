@@ -1,74 +1,50 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Phoenix editor</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11XXXXX</title>
+  <style>
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+      font-size: 3em;
+    }
+    .info {
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #444;
+    }
+    .hw-link {
+      margin-top: 40px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>個人網頁</h1>
+  <div class="info">學號：<strong>1132960</strong></div>
 
-    <body onload="onPageLoaded()">
-        <img id="starsLeft" alt="stars" src="images/stars-left.svg" />
-        <div id="mainDiv">
-            <img id="logo" alt="logo" src="images/phoenix-logo.svg" />
-            <div id="MainText">
-                <h1>Phoenix Code</h1>
-                <span>Click here to locate this &lt;span&gt; in the HTML file<br /></span><br />
-            </div>
-            <div class="video-container">
-                <a
-                    href="https://www.youtube.com/watch?feature=player_embedded&v=Jkg3nAZ6vF8"
-                    target="_blank"
-                    title="Phoenix YouTube Channel">
-                    <img
-                        src="images/youtube_video.png"
-                        alt="Phoenix Code on YouTube"
-                        title="Phoenix Code on YouTube"
-                        style="max-width: 320px" />
-                </a>
-                <svg class="play-button" viewBox="0 0 200 200" alt="Play video">
-                    <circle cx="100" cy="100" r="90" fill="#333" fill-opacity="0.6" />
-                    <polygon points="70, 55 70, 145 145, 100" fill="white" />
-                </svg>
-            </div>
-        </div>
-        <img id="cloudLeftTop" alt="cloud" src="images/vector-top-left.png" />
-        <img id="cloudBottomRight" alt="cloud" src="images/vector-bottom-right.png" />
-        <img id="starsRight" alt="stars" src="images/stars-right.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 3; transform: translate(0px, -1.55909px)"
-            src="images/cloud1.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -2.33863px)"
-            src="images/cloud2.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 5; transform: translate(0px, -3.89772px)"
-            src="images/cloud3.svg" />
-        <img
-            class="clouds"
-            alt="cloud"
-            style="z-index: 6; transform: translate(0px, -3.89772px)"
-            src="images/cloud4.svg" />
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-        <div class="night">
-            <div class="shooting_star">
-                <div class="shooting_star" />
-            </div>
-        </div>
-    </body>
+  <div class="hw-link">
+    <h2>作業連結區</h2>
+    <p><a href="#">HW</a></p>
+  </div>
+</body>
 </html>
